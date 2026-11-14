@@ -1,0 +1,25 @@
+ Data for JOB [48677,1] offset 0 Total slots allocated 2
+
+ ========================   JOB MAP   ========================
+
+ Data for node: MPI-Node1	Num slots: 1	Max slots: 0	Num procs: 1
+ 	Process OMPI jobid: [48677,1] App: 0 Process rank: 0 Bound: UNBOUND
+
+ Data for node: 192.168.56.202	Num slots: 1	Max slots: 0	Num procs: 1
+ 	Process OMPI jobid: [48677,1] App: 0 Process rank: 1 Bound: N/A
+
+ =============================================================
+ Data for JOB [48677,1] offset 0 Total slots allocated 2
+
+ ========================   JOB MAP   ========================
+
+ Data for node: MPI-Node1	Num slots: 1	Max slots: 0	Num procs: 1
+ 	Process OMPI jobid: [48677,1] App: 0 Process rank: 0 Bound: N/A
+
+ Data for node: 192.168.56.202	Num slots: 1	Max slots: 0	Num procs: 1
+ 	Process OMPI jobid: [48677,1] App: 0 Process rank: 1 Bound: UNBOUND
+
+ =============================================================
+[1,0]<stdout>:Rank 0 on MPI-Node1: Local sum = 10
+[1,1]<stdout>:Rank 1 on mpi-node2: Local sum = 26
+[1,0]<stdout>:Final parallel sum = 36
